@@ -1,0 +1,52 @@
+{
+    "name": "vue-project",
+    "version": "0.01",
+    "private": true,
+    "type": "module",
+    "node-remote": [
+        "http://localhost:5173/*"
+    ],
+    "main": "boot.js",
+    "dependencies": {
+        "@fortawesome/vue-fontawesome": "^3.0.0-5",
+        "archiver": "^7.0.1",
+        "chart.js": "^2.9.4",
+        "connect-sqlite3": "^0.9.16",
+        "cryptr": "^6.3.0",
+        "express": "^5.1.0",
+        "express-session": "^1.18.1",
+        "mariadb": "^3.4.1",
+        "md5": "^2.3.0",
+        "multer": "^1.4.5-lts.2",
+        "node-sped-nfe": "^1.2.41",
+        "node-sped-pdf": "^1.0.58",
+        "nodemailer": "^7.0.3",
+        "pdf-to-printer": "^5.6.0",
+        "pinia": "^2.1.7",
+        "print-js": "^1.6.0",
+        "vue": "^3.4.31",
+        "vuex": "^4.1.0"
+    },
+    "devDependencies": {
+        "@vitejs/plugin-vue": "^4.5.1",
+        "autoprefixer": "^10.4.16",
+        "concurrently": "^8.2.2",
+        "postcss": "^8.4.32",
+        "tailwindcss": "^3.3.6",
+        "vite": "^5.0.5"
+    },
+    "guarix": {
+        "email": "",
+        "senha": "",
+        "cache": ""
+    },
+    "sistema": {
+        "chNFe": "51250418634072000156550010000046701000140101",
+        "db": {
+            "type": "sqlite3",
+            "host": "E:\\banco_dados.db",
+            "nome": "",
+            "senha": ""
+        }
+    }
+}
